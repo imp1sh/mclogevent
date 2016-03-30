@@ -1,0 +1,13 @@
+#!/bin/bash
+# path to mc logfile,
+logfile="/opt/minecraft_server/logs/latest.log"
+# yowsup-cli path
+binyowsup="/usr/local/bin/yowsup-cli"
+# whatsapp group to send information to
+group=""
+latestevent=latestevent.log
+loginevent="logged in"
+logoutevent="Disconnected"
+# waittimer defines how long after first login another login text won't be send in seconds. Only after that time the group is going to get bugged again
+waittimerlimit=7200
+waittimervalue=1
